@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="ninjarea51"
+           review=""
+           fetch="https://github.com/ninjarea51" />
+
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
