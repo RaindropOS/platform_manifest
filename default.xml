@@ -9,7 +9,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="RaindropOS"
-           review=""
+           review="gerrit.noip.me"
            fetch="https://github.com/RaindropOS" />
 
   <default revision="refs/tags/android-6.0.1_r22"
